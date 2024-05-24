@@ -6,8 +6,11 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-scrollToTop() {
-throw new Error('Method not implemented.');
-}
-
+  isMenuOpen: boolean = false;
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
+  scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Isso faz a página subir ao topo suavemente
+  }
 }
