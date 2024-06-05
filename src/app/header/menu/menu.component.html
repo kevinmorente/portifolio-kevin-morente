@@ -1,5 +1,6 @@
 <nav [ngClass]="{'open': isMenuOpen}">
     <ul>
+        <li><a routerLink="/" (click)="toggleMenu(); scrollToTop()">INÍCIO</a></li>
         <li><a routerLink="/sobre" (click)="toggleMenu(); scrollToTop()">SOBRE</a></li>
         <li><a routerLink="/projetos" (click)="toggleMenu(); scrollToTop()">PROJETOS</a></li>
         <li><a routerLink="/contato" (click)="toggleMenu(); scrollToTop()">CONTATO</a></li>

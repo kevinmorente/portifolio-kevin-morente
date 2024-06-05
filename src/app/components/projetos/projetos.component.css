@@ -1,5 +1,15 @@
 .body1{
     display: flex;
+    justify-content: right;
+}
+
+.body2{
+    display: flex;
+    justify-content: left;
+}
+
+.body3{
+    display: flex;
     justify-content: center;
 }
 
@@ -9,7 +19,7 @@
     padding: 20px;
     border-radius: 8px;
     box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
-    max-width: 1000px;
+    max-width: 1300px;
     display: flex;
     gap: 20px;
     align-items: center;
@@ -18,21 +28,24 @@
     justify-content: space-around;
 }
 
+.text1{
+    max-width: 400px;
+}
+
+.foto1{
+    width: 600px;
+    opacity: 100%;
+    border-radius: 20px;
+}
+
 p{
     font-size: 18px;
     color: black;
     text-align: justify;
 }
 
-.text1{
-    max-width: 400px;
-}
-
-.foto1{
-    width: 400px;
-    height: 400px;
-    opacity: 100%;
-    border-radius: 20px;
+h1{
+    text-align: center;
 }
 
 button{
@@ -62,3 +75,4 @@ button, a {
     justify-content: center;
     gap: 20px;
 }
+

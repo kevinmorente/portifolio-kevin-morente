@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-main',
-  templateUrl: './main.component.html',
-  styleUrl: './main.component.css'
+  selector: 'app-projetos',
+  templateUrl: './projetos.component.html',
+  styleUrl: './projetos.component.css'
 })
-export class MainComponent {
+export class ProjetosComponent {
   isMenuOpen: boolean = false;
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;
