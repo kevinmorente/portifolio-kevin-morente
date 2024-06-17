@@ -29,7 +29,8 @@ p{
 }
 
 .foto1{
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     height: 400px;
     opacity: 100%;
     border-radius: 20px;
